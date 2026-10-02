@@ -35,6 +35,8 @@ Dữ liệu gốc không có trong repo; [data/README.md](data/README.md) liệt
 
 **Chi tiêu (Task 1).** Tháng 12 chiếm 15,1% chi tiêu cả năm, trong khi tháng 2 chỉ chiếm 5,3% (908 khách đủ 12 tháng). Đỉnh chi tiêu đến từ số giao dịch tăng (+187,6%), không phải giá trị mỗi giao dịch tăng (−2,1%). Ở các tháng điểm dưới 40, 71,0% chi tiêu là không thiết yếu, so với 39,0% ở các tháng điểm từ 80 trở lên. Xăng dầu và di chuyển có nhiều giao dịch nhất, còn siêu thị và tạp hóa có tổng chi tiêu cao nhất. Khách dưới 25 tuổi giao dịch thường xuyên nhưng có điểm sức khỏe thấp nhất trong các nhóm tuổi năng động; dù vậy tuổi chỉ giải thích 0,25% mức chênh lệch của điểm, nên không đủ mạnh để dùng làm tiêu chí phân khúc.
 
+![Chi tiêu theo tháng năm 2025](task1_eda/charts/monthly_spending.png)
+
 **Sức khỏe tài chính (Task 2).**
 - Bốn tỷ lệ theo tháng (chi tiêu so với thu nhập, mức dùng hạn mức, mức chi thất thường, tỷ trọng chi thiết yếu) giải thích 87,8% sự thay đổi của điểm sức khỏe (R²). Điểm gần như chỉ là bản tóm tắt của bốn tỷ lệ này, nên phần phân tích tập trung vào việc các tỷ lệ tăng khi nào và vì sao.
 - Căng thẳng hiếm và ngắn: 0,9% số tháng có điểm dưới 40, và 95,7% trong số đó hồi lại ngay tháng sau.
@@ -46,7 +48,11 @@ Dữ liệu gốc không có trong repo; [data/README.md](data/README.md) liệt
 
 **Mức độ tương tác (Task 3).** 99,0% số tháng đã ở mức tương tác "cao" hoặc "rất cao", nên nhãn này gần như không phân biệt được khách. Kênh nào cũng có ít nhất 94,3% khách dùng trong năm, nhưng POS vẫn chiếm 58,82% số giao dịch. 59 khách đủ năm (6,5%) thuộc nhóm khỏe nhất nhưng ít tương tác nhất.
 
+![Độ phủ và tỷ trọng các kênh](task3_engagement/charts/channel_reach_share.png)
+
 **Phân khúc (Task 4).** K-Means (K = 4) trên 908 khách đủ năm, cộng một nhóm theo quy tắc cho 91 khách ít dữ liệu, cho ra năm phân khúc: Stable & Engaged 32,6%, Stretched & Engaged 20,8%, Lower Engagement & Pressured 19,8%, Emerging Digital 17,6%, Limited History 9,1% (silhouette 0,19). Hai phân khúc chịu áp lực chứa 65 trong 70 khách từng có tháng dưới 40.
+
+![Quy mô các phân khúc](task4_segmentation/charts/segment_sizes.png)
 
 ## 4. Đề xuất (Task 5)
 
@@ -78,13 +84,13 @@ Mức độ mạnh = vấn đề xuất hiện ở nhóm mục tiêu nhiều g�
 ```
 ├── slides/BI10_R01_proposal.pdf        bộ slide 21 trang
 ├── data/                               danh sách file dữ liệu gốc
-├── task1_eda/                          3 notebook:
+├── task1_eda/                          3 notebook, charts/:
 │     part1  Q1, Q2, Q5 trên 908 khách đủ 12 tháng (slide 1, 5, 8)
 │     part2  kiểm tra dữ liệu và trả lời Q1–Q5 trên cả 999 khách
 │     part3  mùa vụ, danh mục, tỉnh và kênh digital trên cả 999 khách (slide 4, 6, 7)
 ├── task2_financial_health/             notebook, charts/, outputs/
-├── task3_engagement/                   notebook
-├── task4_segmentation/                 notebook, outputs/
+├── task3_engagement/                   notebook, charts/
+├── task4_segmentation/                 notebook, charts/, outputs/
 └── task5_recommendations/              notebook, inputs/, charts/, outputs/
 ```
 

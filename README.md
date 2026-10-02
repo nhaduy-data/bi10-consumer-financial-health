@@ -35,6 +35,8 @@ The raw data is not included in this repository; [data/README.md](data/README.md
 
 **Spending (Task 1).** December holds 15.1% of annual spending against 5.3% in February (908 full-year customers). The peak comes from more transactions (+187.6%), not larger tickets (−2.1%). In months scoring below 40, 71.0% of spending is discretionary, against 39.0% in months scoring 80 or more. Fuel & Transport has the most transactions, while Supermarket & Grocery has the highest total spend. Customers under 25 transact often but have the lowest health score among active age groups; even so, age explains only 0.25% of the variation in the score, so it is too weak to segment on.
 
+![Monthly spending in 2025](task1_eda/charts/monthly_spending.png)
+
 **Financial health (Task 2).**
 - Four monthly ratios (spending ÷ income, credit utilisation, spending volatility, essential share) explain 87.8% of the variation in the health score (R²). The score is mostly a summary of these ratios, so the analysis focuses on when and why they rise.
 - Stress is rare and short: 0.9% of customer-months score below 40, and 95.7% of them recover the next month.
@@ -46,7 +48,11 @@ The raw data is not included in this repository; [data/README.md](data/README.md
 
 **Engagement (Task 3).** 99.0% of customer-months are already "high" or "very high" engagement, so the label barely separates customers. Every channel is used by at least 94.3% of customers during the year, yet POS still carries 58.82% of transactions. 59 full-year customers (6.5%) are among the healthiest but least engaged.
 
+![Channel reach and share](task3_engagement/charts/channel_reach_share.png)
+
 **Segmentation (Task 4).** K-Means (K = 4) on the 908 full-year customers, plus a rule-based group for the 91 with limited history, gives five segments: Stable & Engaged 32.6%, Stretched & Engaged 20.8%, Lower Engagement & Pressured 19.8%, Emerging Digital 17.6%, Limited History 9.1% (silhouette 0.19). The two pressured segments hold 65 of the 70 customers who ever scored below 40.
+
+![Segment sizes](task4_segmentation/charts/segment_sizes.png)
 
 ## 4. Recommendations (Task 5)
 
@@ -78,13 +84,13 @@ Driver = how many times more often the problem shows up in the target group than
 ```
 ├── slides/BI10_R01_proposal.pdf        final 21-slide deck
 ├── data/                               list of the raw data files
-├── task1_eda/                          3 notebooks:
+├── task1_eda/                          3 notebooks, charts/:
 │     part1  Q1, Q2, Q5 on the 908 full-year customers (slides 1, 5, 8)
 │     part2  data checks and answers to Q1–Q5 on all 999 customers
 │     part3  seasonality, categories, provinces and digital channels on all 999 (slides 4, 6, 7)
 ├── task2_financial_health/             notebook, charts/, outputs/
-├── task3_engagement/                   notebook
-├── task4_segmentation/                 notebook, outputs/
+├── task3_engagement/                   notebook, charts/
+├── task4_segmentation/                 notebook, charts/, outputs/
 └── task5_recommendations/              notebook, inputs/, charts/, outputs/
 ```
 
