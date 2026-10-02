@@ -4,6 +4,8 @@ Bài dự thi vòng 1 cuộc thi **Business Intelligence Season 10** do ITB Club
 
 **Kết quả chính:** căng thẳng tài chính hiếm và ngắn, và phần lớn tháng căng thẳng có một giao dịch lớn. Sáu công cụ hỗ trợ không mang tính trừng phạt, bắt đầu từ cảnh báo chi tiêu, có thể đến được 89,4% khách hàng. Điểm sức khỏe tài chính không bao giờ được dùng để từ chối cho vay, giảm hạn mức hay khóa tài khoản.
 
+Đây là bài làm nhóm 5 người. Phần của tôi là Task 2, Task 5 và các định nghĩa dùng chung. Task 1, 3 và 4 do các bạn được liệt kê ở mục 5 thực hiện, nên tôi nắm phương pháp của các phần này không sâu bằng phần của mình.
+
 > Phần giải thích trong notebook viết bằng tiếng Việt. Biểu đồ và bộ slide cuối cùng ([slides/BI10_R01_proposal.pdf](slides/BI10_R01_proposal.pdf), 21 slide) viết bằng tiếng Anh. Bản tiếng Anh của README nằm ở [README.md](README.md).
 
 ---
@@ -27,7 +29,7 @@ Bài dự thi vòng 1 cuộc thi **Business Intelligence Season 10** do ITB Club
 
 999 khách ở 34 tỉnh, với 396 tên nghề: 908 khách có đủ 12 tháng, 91 khách chỉ có 1–2 tháng. Mọi số tiền đều là giả lập, nên khách được so sánh bằng tỷ lệ và bách phân vị, không so bằng số tiền. Các phát hiện ở cấp khách hàng dùng 908 khách đủ năm; quy mô nhóm mục tiêu của các đề xuất tính trên toàn bộ 999 khách.
 
-Dữ liệu gốc không lưu trong repo này (xem [data/README.md](data/README.md)).
+Dữ liệu gốc không có trong repo; [data/README.md](data/README.md) liệt kê các file cần có.
 
 ## 3. Phát hiện chính
 
@@ -75,15 +77,15 @@ Mức độ mạnh = vấn đề xuất hiện ở nhóm mục tiêu nhiều g�
 
 ```
 ├── slides/BI10_R01_proposal.pdf        bộ slide 21 trang
-├── data/                               đặt dữ liệu gốc vào đây (không đưa lên repo)
+├── data/                               danh sách file dữ liệu gốc
 ├── task1_eda/                          3 notebook:
 │     part1  Q1, Q2, Q5 trên 908 khách đủ 12 tháng (slide 1, 5, 8)
 │     part2  kiểm tra dữ liệu và trả lời Q1–Q5 trên cả 999 khách
 │     part3  mùa vụ, danh mục, tỉnh và kênh digital trên cả 999 khách (slide 4, 6, 7)
 ├── task2_financial_health/             notebook, charts/, outputs/
 ├── task3_engagement/                   notebook
-├── task4_segmentation/                 notebook, outputs/ (bảng khách đã xử lý)
-└── task5_recommendations/              notebook, inputs/ (phân khúc Task 4), charts/, outputs/
+├── task4_segmentation/                 notebook, outputs/
+└── task5_recommendations/              notebook, inputs/, charts/, outputs/
 ```
 
 ## 7. Cách chạy lại
@@ -99,4 +101,3 @@ Mức độ mạnh = vấn đề xuất hiện ở nhóm mục tiêu nhiều g�
 - Mốc giao dịch lớn 20% thu nhập chưa được thử với các mốc khác.
 - Không có dữ liệu về việc khách đồng ý nhận thông báo, nên quy mô nhóm mục tiêu là số khách đủ điều kiện, không phải số khách chắc chắn nhận được.
 - Các notebook Task 1 dùng hai nhóm khách: part1 dùng 908 khách đủ 12 tháng, part3 dùng cả 999 khách. Vì vậy tháng 12 là 15,1% ở slide 1 và 15,04% ở slide 4.
-- Trong Task 1 part2, Q3 chỉ tính QR và thương mại điện tử là digital. Part3 và Task 3 tính mọi kênh trừ POS, theo đúng data dictionary.

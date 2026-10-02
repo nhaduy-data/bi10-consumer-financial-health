@@ -4,6 +4,8 @@ Team entry for Round 1 of **Business Intelligence Season 10**, organised by ITB 
 
 **Main result:** financial stress is rare and short, and most stressed months contain one large purchase. Six non-punitive tools, starting with spend alerts, can reach 89.4% of customers. The health score is never used to deny credit, cut a credit limit or block an account.
 
+This was a five-person team project. My own parts are Task 2, Task 5 and the shared definitions. Tasks 1, 3 and 4 were done by the teammates listed in section 5, so I know their methods in less detail than my own.
+
 > Notebook commentary is written in Vietnamese. Charts and the final slide deck ([slides/BI10_R01_proposal.pdf](slides/BI10_R01_proposal.pdf), 21 slides) are in English. A Vietnamese version of this README is in [README_vi.md](README_vi.md).
 
 ---
@@ -27,7 +29,7 @@ Team entry for Round 1 of **Business Intelligence Season 10**, organised by ITB 
 
 999 customers in 34 provinces with 396 job titles: 908 have all 12 months, 91 have only 1–2 months. All amounts are synthetic, so customers are compared with ratios and percentiles, not VND amounts. Customer-level findings use the 908 full-year customers; target sizes for actions count all 999.
 
-The raw data is not stored here (see [data/README.md](data/README.md)).
+The raw data is not included in this repository; [data/README.md](data/README.md) lists the files needed.
 
 ## 3. Key findings
 
@@ -75,15 +77,15 @@ Driver = how many times more often the problem shows up in the target group than
 
 ```
 ├── slides/BI10_R01_proposal.pdf        final 21-slide deck
-├── data/                               place the raw files here (not committed)
+├── data/                               list of the raw data files
 ├── task1_eda/                          3 notebooks:
 │     part1  Q1, Q2, Q5 on the 908 full-year customers (slides 1, 5, 8)
 │     part2  data checks and answers to Q1–Q5 on all 999 customers
 │     part3  seasonality, categories, provinces and digital channels on all 999 (slides 4, 6, 7)
 ├── task2_financial_health/             notebook, charts/, outputs/
 ├── task3_engagement/                   notebook
-├── task4_segmentation/                 notebook, outputs/ (preprocessed customer table)
-└── task5_recommendations/              notebook, inputs/ (Task 4 segments), charts/, outputs/
+├── task4_segmentation/                 notebook, outputs/
+└── task5_recommendations/              notebook, inputs/, charts/, outputs/
 ```
 
 ## 7. How to reproduce
@@ -99,4 +101,3 @@ Driver = how many times more often the problem shows up in the target group than
 - The 20% large-purchase threshold was not tested against other values.
 - No data on notification consent, so target sizes count eligible customers, not customers certain to be reached.
 - The Task 1 notebooks use two bases: part1 uses the 908 full-year customers, part3 uses all 999. This is why December is 15.1% on slide 1 and 15.04% on slide 4.
-- In Task 1 part2, Q3 counts only QR and e-commerce as digital. Part3 and Task 3 count every channel except POS, as the data dictionary defines it.
