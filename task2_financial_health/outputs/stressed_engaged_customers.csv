@@ -1,0 +1,65 @@
+﻿consumer_id,age,gender,occupation,occupation_group,province,health_avg,health_min,months_below_40,engagement_avg
+KH00100925,36,Nữ,Họa sĩ,"Truyền thông, nghệ thuật và thiết kế",Đồng Nai,63.00833333333333,50.8,0,82.01666666666667
+KH00101645,24,Nam,Chuyên viên tư vấn hưu trí,Tài chính và pháp lý,Thanh Hóa,60.85,50.2,0,83.55833333333334
+KH00102650,50,Nam,Nhà luyện kim,Khoa học và nghiên cứu,Lâm Đồng,61.666666666666664,46.0,0,81.60000000000001
+KH00102730,35,Nữ,Nhân viên cấp cứu,Y tế và chăm sóc sức khỏe,Cà Mau,55.74166666666667,24.4,1,83.09166666666667
+KH00103125,40,Nam,Nhà thiết kế triển lãm,"Truyền thông, nghệ thuật và thiết kế",Thành phố Hồ Chí Minh,62.833333333333336,48.9,0,81.80833333333334
+KH00103250,20,Nam,Chuyên viên thông tin hướng nghiệp,Giáo dục,Phú Thọ,62.76666666666667,48.2,0,83.38333333333334
+KH00103405,38,Nam,Quản lý trung tâm thể hình,Kinh doanh và dịch vụ,Cà Mau,63.275,46.1,0,81.26666666666667
+KH00103485,27,Nữ,Nhân viên xe cứu thương,Y tế và chăm sóc sức khỏe,Đồng Tháp,60.74166666666667,50.9,0,80.35833333333333
+KH00103605,39,Nữ,Cán bộ đào tạo và phát triển,Khu vực công và cộng đồng,Thành phố Hồ Chí Minh,60.574999999999996,48.2,0,80.51666666666667
+KH00103810,47,Nữ,Nhà độc chất học,Khoa học và nghiên cứu,Đồng Tháp,63.46666666666667,51.4,0,82.64166666666667
+KH00104050,81,Nam,Quản trị viên giáo dục,Giáo dục,Đà Nẵng,59.76666666666667,32.4,1,80.81666666666666
+KH00104245,45,Nam,Chuyên viên nghiên cứu xã hội,Khoa học và nghiên cứu,Lâm Đồng,63.1,51.7,0,80.43333333333334
+KH00104725,41,Nam,Chuyên viên nghiên cứu chương trình,Khoa học và nghiên cứu,Đồng Nai,61.93333333333334,46.9,0,80.5
+KH00104925,47,Nam,Trợ lý sản xuất truyền hình,"Truyền thông, nghệ thuật và thiết kế",Cần Thơ,59.05833333333334,50.3,0,80.97500000000001
+KH00105205,19,Nam,Nhân viên giao nhận vận tải,Kinh doanh và dịch vụ,Lâm Đồng,63.19166666666666,40.8,0,82.73333333333333
+KH00105365,36,Nam,Nhân viên cấp cứu,Y tế và chăm sóc sức khỏe,Thái Nguyên,57.78333333333333,40.7,0,81.41666666666667
+KH00106125,48,Nữ,Giáo viên mầm non,Giáo dục,Quảng Trị,57.449999999999996,45.6,0,80.38333333333334
+KH00107250,30,Nữ,Chuyên viên kinh doanh công nghệ thông tin,Công nghệ thông tin,Sơn La,61.083333333333336,44.7,0,81.11666666666666
+KH00107725,22,Nam,Thủ thư thư viện công cộng,Giáo dục,An Giang,62.34166666666667,49.7,0,82.35000000000001
+KH00107805,23,Nữ,Giáo viên mầm non,Giáo dục,Cần Thơ,63.25833333333333,55.1,0,84.18333333333332
+KH00107970,61,Nữ,Chuyên viên trang điểm,"Truyền thông, nghệ thuật và thiết kế",Quảng Trị,61.53333333333333,52.7,0,81.19166666666666
+KH00108085,47,Nam,Nhân viên tư vấn hỗ trợ,Khu vực công và cộng đồng,Điện Biên,60.0,47.2,0,81.175
+KH00108170,50,Nữ,Thủ thư thư viện công cộng,Giáo dục,Điện Biên,59.324999999999996,47.2,0,82.48333333333333
+KH00108490,35,Nữ,Quản trị viên tổ chức từ thiện,Khu vực công và cộng đồng,Đắk Lắk,60.333333333333336,51.2,0,82.20833333333333
+KH00108730,35,Nữ,Điều dưỡng khuyết tật học tập,Y tế và chăm sóc sức khỏe,Sơn La,61.975,52.7,0,82.14166666666667
+KH00108845,50,Nữ,Chuyên viên trị liệu thảo dược,Y tế và chăm sóc sức khỏe,Thái Nguyên,62.09166666666667,50.0,0,82.64166666666667
+KH00109610,25,Nữ,Chuyên viên khảo sát công trình,Kỹ thuật và xây dựng,Nghệ An,62.74166666666667,52.1,0,80.45833333333333
+KH00109890,31,Nam,Trợ lý phát thanh,"Truyền thông, nghệ thuật và thiết kế",Đồng Nai,59.51666666666667,46.7,0,80.18333333333332
+KH00109925,26,Nam,Thầy thuốc đông y,Y tế và chăm sóc sức khỏe,Gia Lai,61.9,49.4,0,80.825
+KH00110170,34,Nữ,Trợ lý chính trị gia,Khu vực công và cộng đồng,Đà Nẵng,57.39166666666667,36.3,1,80.14999999999999
+KH00110330,45,Nam,Nhà thiết kế gốm sứ,"Truyền thông, nghệ thuật và thiết kế",Hưng Yên,61.09166666666667,49.4,0,81.39166666666667
+KH00110570,76,Nam,Chuyên viên an toàn lao động,Y tế và chăm sóc sức khỏe,Thành phố Hồ Chí Minh,63.425000000000004,53.5,0,80.22500000000001
+KH00110810,27,Nam,Chuyên viên mua quảng cáo,"Truyền thông, nghệ thuật và thiết kế",An Giang,63.30833333333333,55.2,0,82.22500000000001
+KH00110850,42,Nam,Chuyên viên truyền thông sức khỏe,Y tế và chăm sóc sức khỏe,Cần Thơ,62.175000000000004,50.3,0,80.18333333333334
+KH00111525,23,Nữ,Cán bộ bảo tồn công trình di tích,Kỹ thuật và xây dựng,Đà Nẵng,62.258333333333326,51.8,0,82.59166666666667
+KH00111765,25,Nam,Thanh tra công trình di tích,Kỹ thuật và xây dựng,Ninh Bình,57.975,44.6,0,83.10833333333333
+KH00111850,43,Nam,Thư ký công ty,Kinh doanh và dịch vụ,Hưng Yên,56.708333333333336,36.2,3,80.65833333333333
+KH00111930,53,Nam,Cán bộ giáo dục bảo tàng,Giáo dục,Thành phố Hồ Chí Minh,60.208333333333336,48.5,0,81.575
+KH00112090,23,Nam,Nhà miễn dịch học,Khoa học và nghiên cứu,An Giang,63.300000000000004,51.3,0,81.91666666666667
+KH00112165,38,Nam,Nhà địa chất hiện trường,Khoa học và nghiên cứu,Lai Châu,61.71666666666667,51.5,0,80.68333333333334
+KH00112205,46,Nam,Nhân viên pha chế cà phê,Kinh doanh và dịch vụ,Nghệ An,50.824999999999996,27.8,2,82.41666666666667
+KH00113010,34,Nữ,Giáo viên dạy nhạc,Giáo dục,Thanh Hóa,61.85833333333333,50.9,0,81.54166666666667
+KH00113170,41,Nữ,Chuyên viên công nghệ dệt may,Kỹ thuật và xây dựng,Lâm Đồng,62.458333333333336,49.0,0,82.04166666666667
+KH00113290,27,Nam,Kỹ thuật viên phòng thí nghiệm giảng dạy,Giáo dục,Ninh Bình,63.083333333333336,48.4,0,81.3
+KH00113405,28,Nữ,Cán bộ triển lãm bảo tàng,"Truyền thông, nghệ thuật và thiết kế",Nghệ An,62.708333333333336,51.3,0,83.76666666666667
+KH00113490,49,Nam,Chuyên viên hoạch định truyền thông,"Truyền thông, nghệ thuật và thiết kế",Lâm Đồng,62.76666666666667,52.0,0,80.73333333333333
+KH00113565,45,Nữ,Nhà thiết kế gốm sứ,"Truyền thông, nghệ thuật và thiết kế",Đà Nẵng,60.01666666666667,38.2,1,81.27499999999999
+KH00113725,23,Nữ,Chủ nhiệm ánh sáng trường quay,"Truyền thông, nghệ thuật và thiết kế",Ninh Bình,63.1,47.7,0,82.73333333333333
+KH00114010,69,Nữ,Cán bộ giáo dục cộng đồng,Giáo dục,Phú Thọ,62.275,47.9,0,80.91666666666667
+KH00114085,30,Nữ,Chuyên viên dựng phim,"Truyền thông, nghệ thuật và thiết kế",Cần Thơ,61.291666666666664,50.6,0,81.80833333333334
+KH00114365,42,Nam,Nhà báo,"Truyền thông, nghệ thuật và thiết kế",Tuyên Quang,63.208333333333336,53.5,0,82.39999999999999
+KH00114405,25,Nam,Biên tập viên chuyên đề tạp chí,"Truyền thông, nghệ thuật và thiết kế",Cà Mau,61.975,47.3,0,80.53333333333333
+KH00115650,45,Nam,Cán bộ giáo dục môi trường,Nông nghiệp và môi trường,Hà Tĩnh,52.28333333333333,13.1,1,82.24166666666666
+KH00115685,47,Nam,Lính cứu hỏa,Khu vực công và cộng đồng,Đắk Lắk,63.10833333333333,51.1,0,81.425
+KH00115730,28,Nữ,Kỹ thuật viên xạ trị,Y tế và chăm sóc sức khỏe,Tây Ninh,61.55833333333334,43.5,0,82.39999999999999
+KH00116325,49,Nữ,Cán bộ thủy sản,Nông nghiệp và môi trường,Vĩnh Long,60.050000000000004,47.8,0,82.90833333333333
+KH00116610,45,Nam,Nhà thiết kế triển lãm,"Truyền thông, nghệ thuật và thiết kế",Đắk Lắk,62.5,48.6,0,80.93333333333334
+KH00116845,58,Nam,Chuyên viên dự toán xây dựng,Kỹ thuật và xây dựng,Đồng Nai,63.449999999999996,46.0,0,80.74166666666666
+KH00117485,37,Nữ,Giáo viên tiếng anh,Giáo dục,Thanh Hóa,62.65833333333333,53.8,0,83.33333333333333
+KH00117685,23,Nam,Chuyên viên trị liệu dinh dưỡng,Y tế và chăm sóc sức khỏe,Huế,58.38333333333333,42.1,0,80.13333333333334
+KH00117690,32,Nữ,Trình dược viên,Y tế và chăm sóc sức khỏe,Bắc Ninh,62.19166666666666,49.4,0,81.81666666666666
+KH00118810,36,Nữ,Cán bộ phát triển thể thao,Khu vực công và cộng đồng,Hải Phòng,61.43333333333334,54.4,0,83.30833333333334
+KH00119170,38,Nam,Nhân viên nghệ thuật cộng đồng,"Truyền thông, nghệ thuật và thiết kế",Đà Nẵng,60.324999999999996,49.1,0,80.98333333333333
+KH00119850,31,Nam,Chuyên viên dinh dưỡng vật nuôi,Nông nghiệp và môi trường,Đồng Nai,62.90833333333333,51.9,0,82.14999999999999

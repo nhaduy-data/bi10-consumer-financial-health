@@ -1,0 +1,7 @@
+# Raw competition data: download separately (see data/README.md)
+data/*.csv
+data/*.xlsx
+data/*.pdf
+
+.ipynb_checkpoints/
+__pycache__/
